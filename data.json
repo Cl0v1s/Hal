@@ -1,0 +1,670 @@
+[
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play my favorite playlist."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play some classical music."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to this song for me."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play the jazz album."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play something relaxing."
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the weather like today?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Weather forecast for tomorrow?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it rain this weekend?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What is the current temperature?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will I need an umbrella?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play my rock playlist."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play something romantic."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to this artist for me."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play some electronic music."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play my favorite song."
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the weather like tonight?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it be sunny tomorrow?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the weather like next week?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Is it going to snow soon?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the weekend weather forecast?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play a piano piece."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play my workout playlist."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to this new release."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start a party mix."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play something to relax."
+    },
+    {
+        "label": "WEATHER",
+        "text": "What will the weather be like tomorrow morning?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it be windy today?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the weather like tonight?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it be cold this weekend?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the weather like this afternoon?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play some Drake for me."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to Taylor Swift's latest album."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play something by Beyoncé."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start a song by The Weeknd."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play a track by Ed Sheeran."
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the weather like in Paris today?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Weather forecast for New York this weekend?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it rain in London tomorrow?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the current temperature in Tokyo?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will I need a coat in Berlin?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play some upbeat music."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start my favorite album."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on some jazz tunes."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Can you play some soft rock?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "I’d like to hear some blues."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Turn on my workout mix."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Let’s listen to some reggae."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play a chill playlist."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Give me some metal music."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Set the mood with some R&B."
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's today's weather like?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Is it going to rain today?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Tell me the weather forecast."
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it be hot this afternoon?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Do I need a jacket?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "How's the weather looking?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Any chance of thunderstorms?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will I need sunglasses today?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Check the forecast for tonight."
+    },
+    {
+        "label": "WEATHER",
+        "text": "Is there a storm coming?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "I want to hear some hip-hop."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on some acoustic tracks."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Can you find some indie music?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Let's vibe to some lo-fi."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play a relaxing piano piece."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Surprise me with a song!"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Find a trending pop song."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "What’s a good folk song?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play a song that makes me happy."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Give me something nostalgic."
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it be windy today?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Is it snowing anywhere nearby?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Give me an update on the temperature."
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the UV index today?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Is it safe to go for a run outside?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it be cold this evening?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "How’s the weather looking for the weekend?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Tell me if there's a heatwave coming."
+    },
+    {
+        "label": "WEATHER",
+        "text": "Should I bring an umbrella tomorrow?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What’s the humidity level today?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play some instrumental background music."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on an 80s throwback mix."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start a playlist for reading."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "I want to listen to some EDM."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Give me some opera music."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on my relaxation playlist."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "What’s a good jazz fusion album?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Let’s listen to some movie soundtracks."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Find me a good country song."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play something for a road trip."
+    },
+    {
+        "label": "WEATHER",
+        "text": "Is it foggy outside?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Tell me the weather in Los Angeles."
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it be humid tomorrow?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Can you check the wind speed?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What’s the weather like in New York?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "How warm will it be this weekend?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Will it snow in the mountains?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What's the weather update for London?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "Is there a chance of hail today?"
+    },
+    {
+        "label": "WEATHER",
+        "text": "What’s the air quality like?"
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Blinding Lights' by The Weeknd."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Shape of You' by Ed Sheeran."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Someone Like You' by Adele."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Bohemian Rhapsody' by Queen."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Lose Yourself' by Eminem."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "I want to hear 'Hallelujah' by Jeff Buckley."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue up 'Rolling in the Deep' by Adele."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Smells Like Teen Spirit' by Nirvana."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Hotel California' by Eagles."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Billie Jean' by Michael Jackson."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Thinking Out Loud' by Ed Sheeran."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Uptown Funk' by Bruno Mars."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Wonderwall' by Oasis."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Take On Me' by A-ha."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "I want to hear 'Sweet Child O' Mine' by Guns N' Roses."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Perfect' by Ed Sheeran."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Seven Nation Army' by The White Stripes."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Hello' by Adele."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Bad Guy' by Billie Eilish."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Counting Stars' by OneRepublic."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Shallow' by Lady Gaga & Bradley Cooper."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Let Her Go' by Passenger."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Happier' by Marshmello & Bastille."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Radioactive' by Imagine Dragons."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Clocks' by Coldplay."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Can't Stop the Feeling!' by Justin Timberlake."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Photograph' by Ed Sheeran."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Wake Me Up' by Avicii."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Titanium' by David Guetta ft. Sia."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Viva La Vida' by Coldplay."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Love Me Like You Do' by Ellie Goulding."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Counting Stars' by OneRepublic."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Senorita' by Shawn Mendes & Camila Cabello."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Take Me to Church' by Hozier."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Sucker' by Jonas Brothers."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Bad Romance' by Lady Gaga."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Call Me Maybe' by Carly Rae Jepsen."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Happy' by Pharrell Williams."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Somebody That I Used to Know' by Gotye."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Believer' by Imagine Dragons."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Demons' by Imagine Dragons."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Lean On' by Major Lazer & DJ Snake."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'The Middle' by Zedd, Maren Morris & Grey."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Firework' by Katy Perry."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Roar' by Katy Perry."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Shake It Off' by Taylor Swift."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Blank Space' by Taylor Swift."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'ME!' by Taylor Swift ft. Brendon Urie."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Lover' by Taylor Swift."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'God’s Plan' by Drake."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Hotline Bling' by Drake."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Sicko Mode' by Travis Scott."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Sunflower' by Post Malone & Swae Lee."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Circles' by Post Malone."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Rockstar' by Post Malone ft. 21 Savage."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Congratulations' by Post Malone."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'HUMBLE.' by Kendrick Lamar."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'DNA.' by Kendrick Lamar."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Alright' by Kendrick Lamar."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'Lucid Dreams' by Juice WRLD."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'XO TOUR Llif3' by Lil Uzi Vert."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Goosebumps' by Travis Scott."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Play 'Savage Love' by Jason Derulo."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Start 'Watermelon Sugar' by Harry Styles."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Listen to 'As It Was' by Harry Styles."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Put on 'Sign of the Times' by Harry Styles."
+    },
+    {
+        "label": "PLAY_MUSIC",
+        "text": "Queue 'Golden' by Harry Styles."
+    }
+]

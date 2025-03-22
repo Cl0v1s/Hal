@@ -3,3 +3,5 @@
 *.wav
 *.log
 media/*.xcf
+venv
+tinybert_finetuned
