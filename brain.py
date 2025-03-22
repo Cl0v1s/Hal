@@ -96,20 +96,3 @@ def get_syntax(request):
     del syntaxer
     gc.collect()
     return tokens
-
-def main():
-    request = listen()
-    request = translate(request)
-
-    print(request)
-    print(get_emotion(request))
-    print(get_intent(request))
-    print(get_syntax(request))
-
-if __name__ == "__main__":
-    print("Ready...")
-    while(True):
-        input("Press enter to start")
-        # if GPIO.input(BUTTON) == GPIO.LOW:
-        main()
-

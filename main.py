@@ -1,27 +1,42 @@
-from ctypes import *
+from threading import Thread
+import eyes
+import brain
+import time
 
 if __name__ == "__main__":
-    roboEyes = CDLL('./lib.so')
-    
-    roboEyes.pollEvent.restype = c_bool
-    
-    roboEyes.initMillis()
-    
-    roboEyes.setColors(0,0,0, 255, 255, 255)
-    
-    roboEyes.begin(200, 200, 30)
-    roboEyes.setAutoblinker(True, 3, 2); 
-    roboEyes.setIdleMode(True, 2, 2);
-    
-    roboEyes.setWidth(36, 36); 
-    roboEyes.setHeight(42, 42); 
-    roboEyes.setBorderradius(8, 8); 
-    roboEyes.setSpacebetween(14); 
-    
-    roboEyes.setMood(0)
-    
-    quit = False
-    while quit != True:
-        quit = roboEyes.pollEvent();
-        roboEyes.update();
-    
+    thread = Thread(target = eyes.loop)
+    thread.start()
+
+    time.sleep(5)
+    while True:
+        eyes.get_instance().setMood(0)
+        input('Waiting for user input...')
+
+        eyes.attention(True)
+        request = brain.listen()
+        eyes.attention(False)
+        eyes.get_instance().setCuriosity(True)
+        request = brain.translate(request)
+        emotion = brain.get_emotion(request)[0]
+        intent = brain.get_intent(request)[0]
+        eyes.get_instance().setCuriosity(False)
+        eyes.attention(False)
+
+
+        if(emotion["label"] == 'LABEL_3'):
+            eyes.get_instance().setMood(2)
+        
+        if(intent["score"] < 0.8):
+            eyes.get_instance().anim_confused()
+            eyes.get_instance().setMood(1)
+        else:
+            eyes.get_instance().anim_laugh()
+
+        print(request)
+        print(emotion)
+        print(intent)
+        time.sleep(2)
+
+
+    thread.join()
+    print("thread finished...exiting")
