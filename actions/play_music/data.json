@@ -20,26 +20,6 @@
         "text": "Play something relaxing."
     },
     {
-        "label": "WEATHER",
-        "text": "What's the weather like today?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Weather forecast for tomorrow?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will it rain this weekend?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What is the current temperature?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will I need an umbrella?"
-    },
-    {
         "label": "PLAY_MUSIC",
         "text": "Play my rock playlist."
     },
@@ -58,26 +38,6 @@
     {
         "label": "PLAY_MUSIC",
         "text": "Play my favorite song."
-    },
-    {
-        "label": "WEATHER",
-        "text": "What's the weather like tonight?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will it be sunny tomorrow?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What's the weather like next week?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Is it going to snow soon?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What's the weekend weather forecast?"
     },
     {
         "label": "PLAY_MUSIC",
@@ -100,26 +60,6 @@
         "text": "Play something to relax."
     },
     {
-        "label": "WEATHER",
-        "text": "What will the weather be like tomorrow morning?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will it be windy today?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What's the weather like tonight?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will it be cold this weekend?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What's the weather like this afternoon?"
-    },
-    {
         "label": "PLAY_MUSIC",
         "text": "Play some Drake for me."
     },
@@ -138,26 +78,6 @@
     {
         "label": "PLAY_MUSIC",
         "text": "Play a track by Ed Sheeran."
-    },
-    {
-        "label": "WEATHER",
-        "text": "What's the weather like in Paris today?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Weather forecast for New York this weekend?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will it rain in London tomorrow?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What's the current temperature in Tokyo?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will I need a coat in Berlin?"
     },
     {
         "label": "PLAY_MUSIC",
@@ -200,46 +120,6 @@
         "text": "Set the mood with some R&B."
     },
     {
-        "label": "WEATHER",
-        "text": "What's today's weather like?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Is it going to rain today?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Tell me the weather forecast."
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will it be hot this afternoon?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Do I need a jacket?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "How's the weather looking?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Any chance of thunderstorms?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will I need sunglasses today?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Check the forecast for tonight."
-    },
-    {
-        "label": "WEATHER",
-        "text": "Is there a storm coming?"
-    },
-    {
         "label": "PLAY_MUSIC",
         "text": "I want to hear some hip-hop."
     },
@@ -280,46 +160,6 @@
         "text": "Give me something nostalgic."
     },
     {
-        "label": "WEATHER",
-        "text": "Will it be windy today?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Is it snowing anywhere nearby?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Give me an update on the temperature."
-    },
-    {
-        "label": "WEATHER",
-        "text": "What's the UV index today?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Is it safe to go for a run outside?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will it be cold this evening?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "How’s the weather looking for the weekend?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Tell me if there's a heatwave coming."
-    },
-    {
-        "label": "WEATHER",
-        "text": "Should I bring an umbrella tomorrow?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What’s the humidity level today?"
-    },
-    {
         "label": "PLAY_MUSIC",
         "text": "Play some instrumental background music."
     },
@@ -358,46 +198,6 @@
     {
         "label": "PLAY_MUSIC",
         "text": "Play something for a road trip."
-    },
-    {
-        "label": "WEATHER",
-        "text": "Is it foggy outside?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Tell me the weather in Los Angeles."
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will it be humid tomorrow?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Can you check the wind speed?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What’s the weather like in New York?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "How warm will it be this weekend?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Will it snow in the mountains?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What's the weather update for London?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "Is there a chance of hail today?"
-    },
-    {
-        "label": "WEATHER",
-        "text": "What’s the air quality like?"
     },
     {
         "label": "PLAY_MUSIC",

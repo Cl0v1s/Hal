@@ -1,0 +1,402 @@
+[
+    {
+        "label": "WEATHER_TODAY",
+        "text": "What's the weather like today?"
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "Weather forecast for tomorrow?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "Will it rain this weekend?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "What is the current temperature?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Will I need an umbrella?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "What's the weather like tonight?"
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "Will it be sunny tomorrow?"
+    },
+    {
+        "label": "WEATHER_SPECIFIC_DATE",
+        "text": "What's the weather like next week?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is it going to snow soon?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "What's the weekend weather forecast?"
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "What will the weather be like tomorrow morning?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Will it be windy today?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "What's the weather like tonight?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "Will it be cold this weekend?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "What's the weather like this afternoon?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "What's the weather like in Paris today?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Weather forecast for New York this weekend?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Will it rain in London tomorrow?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "What's the current temperature in Tokyo?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Will I need a coat in Berlin?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "What's today's weather like?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Is it going to rain today?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Tell me the weather forecast."
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Will it be hot this afternoon?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Do I need a jacket?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "How's the weather looking?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Any chance of thunderstorms?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Will I need sunglasses today?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Check the forecast for tonight."
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is there a storm coming?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Will it be windy today?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is it snowing anywhere nearby?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Give me an update on the temperature."
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "What's the UV index today?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is it safe to go for a run outside?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Will it be cold this evening?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "How’s the weather looking for the weekend?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Tell me if there's a heatwave coming."
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "Should I bring an umbrella tomorrow?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "What’s the humidity level today?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is it foggy outside?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Tell me the weather in Los Angeles."
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "Will it be humid tomorrow?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Can you check the wind speed?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "What’s the weather like in New York?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "How warm will it be this weekend?"
+    },
+    {
+        "label": "WEATHER_SPECIFIC_PLACE",
+        "text": "Will it snow in the mountains?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "What's the weather update for London?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Is there a chance of hail today?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "What’s the air quality like?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "How cold is it right now?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Forecast for Chicago this evening?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Is it raining right now?"
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "Will it be sunny in the morning?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "How warm will it be this Saturday?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "What’s the temperature at my location?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Do I need a raincoat today?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Will it be foggy tonight?"
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "Is there a chance of storms tomorrow?"
+    },
+    {
+        "label": "WEATHER_SPECIFIC_DATE",
+        "text": "What’s the weather like next Friday?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is it going to be a hot afternoon?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "Will it be chilly this weekend?"
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "How cold will it be in the morning?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Is there a heatwave today?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "What’s the wind speed right now?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "Will there be a storm on Sunday?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "How humid is it today?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "What's the weather like in Madrid today?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Weekend forecast for Rome?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Will it rain in Sydney tomorrow?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Current conditions in Bangkok?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Is it snowing in Moscow?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "What’s today’s weather summary?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Is there a thunderstorm warning?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Give me the weather details for my area."
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Is it safe to go hiking today?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Do I need gloves?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "What’s the air pressure today?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Any chance of hail tonight?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Will I need a hat today?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Is it warm enough for a picnic?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "What’s the weather update for my city?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Should I expect strong winds today?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is the sun shining right now?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Is there a snowstorm coming?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is it a good day for a run?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "Will it be nice for a beach trip?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is the air quality safe today?"
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "Should I prepare for a cold night tomorrow?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "What’s the current UV index?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Is it snowing outside?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Tell me the forecast for Cape Town."
+    },
+    {
+        "label": "WEATHER_TOMORROW",
+        "text": "How humid will it be tomorrow?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Check today’s wind conditions."
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "How’s the weather in Toronto?"
+    },
+    {
+        "label": "WEATHER_WEEKEND",
+        "text": "Is it good weather for camping this weekend?"
+    },
+    {
+        "label": "WEATHER_SPECIFIC_PLACE",
+        "text": "Will it snow in the Alps?"
+    },
+    {
+        "label": "WEATHER_CITY",
+        "text": "Is it raining in Dubai?"
+    },
+    {
+        "label": "WEATHER_TODAY",
+        "text": "Any risk of frost today?"
+    },
+    {
+        "label": "WEATHER_HERE",
+        "text": "Is the air dry or humid right now?"
+    }
+]

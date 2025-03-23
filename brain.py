@@ -13,17 +13,20 @@ import wave
 from transformers import pipeline, MarianTokenizer, MarianMTModel, WhisperForConditionalGeneration
 import sounddevice as sd
 import torch
+import numpy as np
+import soundfile as sf
+import torchaudio
+import io
 import whisper
-from silero_vad import load_silero_vad, read_audio, get_speech_timestamps
+from silero_vad import load_silero_vad, read_audio, get_speech_timestamps, VADIterator
 
 device = sd.default.device[0]
 
-def listen():
+def listen(record_secs = 3):
     form_1 = pyaudio.paInt16
     chans = 1
     samp_rate = 16000
     chunk = 1024
-    record_secs = 3
     wav_output_filename = 'input.wav'
 
     audio = pyaudio.PyAudio()
@@ -43,18 +46,13 @@ def listen():
     stream.stop_stream()
     stream.close()
     audio.terminate()
-    # Save the audio frames as .wav file.
-    wavefile = wave.open(wav_output_filename,'wb')
-    wavefile.setnchannels(chans)
-    wavefile.setsampwidth(audio.get_sample_size(form_1))
-    wavefile.setframerate(samp_rate)
-    wavefile.writeframes(b''.join(frames))
-    wavefile.close()
+    return b''.join(frames)
 
 # Load model in memory so it's always ready
 whisper_model = whisper.load_model("small")
-def understand():
-    result = whisper_model.transcribe("input.wav", language="fr")
+def understand(buffer):
+    w=np.frombuffer(buffer, np.int16).flatten().astype(np.float32) / 32768.0 
+    result = whisper_model.transcribe(w, language="fr")
     print("Transcription: {0}".format(result["text"]))
     return result["text"]
 
@@ -62,8 +60,8 @@ silvero = load_silero_vad()
 def wait_for_call(name):
     was_called = False
     while was_called == False:
-        listen()
-        wav = read_audio('input.wav')
+        buffer = listen(1.5)
+        wav = torch.tensor(np.frombuffer(buffer, dtype=np.int16))
         speech_timestamps = get_speech_timestamps(
             wav,
             silvero,
@@ -71,7 +69,7 @@ def wait_for_call(name):
         )
         if(len(speech_timestamps) > 0):
             if((speech_timestamps[0]["end"] - speech_timestamps[0]["start"]) <= 1):
-                request = understand()
+                request = understand(buffer)
                 was_called = (name.lower() in request.lower())
 
 def translate(request):

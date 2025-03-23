@@ -2,6 +2,7 @@ from threading import Thread, Event
 import eyes
 import bips
 import brain
+import act
 import time
 
 ready = Event()
@@ -10,8 +11,6 @@ stop = Event()
 NAME = "Merci"
 
 def getCurrentMemoryUsage():
-    ''' Memory usage in kB '''
-
     with open('/proc/self/status') as f:
         memusage = f.read().split('VmRSS:')[1].split('\n')[0]
     return memusage.strip()
@@ -19,6 +18,14 @@ def getCurrentMemoryUsage():
 if __name__ == "__main__":
     thread = Thread(target = eyes.loop, args=(ready, stop, ))
     thread.start()
+
+    actions = act.load_actions()
+    intent_index = dict()
+    index = 0
+    for action in actions:
+        for intent in action[0]:
+            intent_index["LABEL_"+ str(index)] = [intent, action[1]]
+            index += 1
 
     while stop.is_set() == False:
         if ready.is_set():
@@ -32,10 +39,10 @@ if __name__ == "__main__":
 
                 # Get a new sample with the actual request
                 bips.playListen()
-                brain.listen()
+                buffer = brain.listen()
 
                 # Request processing
-                request = brain.understand()
+                request = brain.understand(buffer)
                 eyes.attention(False)
                 eyes.get_instance().setMood(3)
                 eyes.get_instance().setIdleMode(False, 2, 2)
@@ -48,13 +55,15 @@ if __name__ == "__main__":
                 # if(emotion["label"] == 'LABEL_3'):
                 #     eyes.get_instance().setMood(2)
                 
-                if(intent["score"] < 0.78):
+                int, fn = intent_index[intent["label"]]
+                if(intent["score"] < 0.80):
                     eyes.get_instance().anim_confused()
                     eyes.get_instance().setMood(1)
                     bips.playSad()
                 else:
                     eyes.get_instance().setMood(0)
                     eyes.get_instance().anim_laugh()
+                    fn(int, request)
                     bips.playOk()
 
 
