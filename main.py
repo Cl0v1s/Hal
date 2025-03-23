@@ -63,8 +63,8 @@ if __name__ == "__main__":
                 else:
                     eyes.get_instance().setMood(0)
                     eyes.get_instance().anim_laugh()
-                    fn(int, request)
                     bips.playOk()
+                    fn(int, request)
 
 
                 time.sleep(0.5)

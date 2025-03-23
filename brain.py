@@ -1,24 +1,11 @@
-###
-# Nick Bild
-# February 2024
-# https://github.com/nickbild/local_llm_assistant
-#
-# Be sure to start the LLM before running this script, e.g.:
-# ./TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
-###
-
 import gc
 import pyaudio
-import wave
 from transformers import pipeline, MarianTokenizer, MarianMTModel, WhisperForConditionalGeneration
 import sounddevice as sd
 import torch
 import numpy as np
-import soundfile as sf
-import torchaudio
-import io
 import whisper
-from silero_vad import load_silero_vad, read_audio, get_speech_timestamps, VADIterator
+from silero_vad import load_silero_vad, get_speech_timestamps
 
 device = sd.default.device[0]
 
@@ -27,7 +14,6 @@ def listen(record_secs = 3):
     chans = 1
     samp_rate = 16000
     chunk = 1024
-    wav_output_filename = 'input.wav'
 
     audio = pyaudio.PyAudio()
 
@@ -51,7 +37,7 @@ def listen(record_secs = 3):
 # Load model in memory so it's always ready
 whisper_model = whisper.load_model("small")
 def understand(buffer):
-    w=np.frombuffer(buffer, np.int16).flatten().astype(np.float32) / 32768.0 
+    w = np.frombuffer(buffer, np.int16).flatten().astype(np.float32) / 32768.0 
     result = whisper_model.transcribe(w, language="fr")
     print("Transcription: {0}".format(result["text"]))
     return result["text"]
