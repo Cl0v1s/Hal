@@ -8,16 +8,17 @@
 ###
 
 import gc
-from openai import OpenAI
 import pyaudio
 import wave
-import whisper
-from transformers import pipeline, BertForTokenClassification, AutoTokenizer, MarianTokenizer, MarianMTModel
+from transformers import pipeline, MarianTokenizer, MarianMTModel, WhisperForConditionalGeneration
 import sounddevice as sd
+import torch
+import whisper
+from silero_vad import load_silero_vad, read_audio, get_speech_timestamps
 
 device = sd.default.device[0]
 
-def record_wav():
+def listen():
     form_1 = pyaudio.paInt16
     chans = 1
     samp_rate = 16000
@@ -49,23 +50,29 @@ def record_wav():
     wavefile.setframerate(samp_rate)
     wavefile.writeframes(b''.join(frames))
     wavefile.close()
-    return
 
-def getCurrentMemoryUsage():
-    ''' Memory usage in kB '''
-
-    with open('/proc/self/status') as f:
-        memusage = f.read().split('VmRSS:')[1].split('\n')[0]
-    return memusage.strip()
-
-def listen():
-    model = whisper.load_model("base")
-    record_wav()
-    result = model.transcribe("input.wav")
+# Load model in memory so it's always ready
+whisper_model = whisper.load_model("small")
+def understand():
+    result = whisper_model.transcribe("input.wav", language="fr")
     print("Transcription: {0}".format(result["text"]))
-    del model
-    gc.collect()
     return result["text"]
+
+silvero = load_silero_vad()
+def wait_for_call(name):
+    was_called = False
+    while was_called == False:
+        listen()
+        wav = read_audio('input.wav')
+        speech_timestamps = get_speech_timestamps(
+            wav,
+            silvero,
+            return_seconds=True,
+        )
+        if(len(speech_timestamps) > 0):
+            if((speech_timestamps[0]["end"] - speech_timestamps[0]["start"]) <= 1):
+                request = understand()
+                was_called = (name.lower() in request.lower())
 
 def translate(request):
     tokenizer = MarianTokenizer.from_pretrained("Helsinki-NLP/opus-mt-fr-en")
@@ -77,21 +84,21 @@ def translate(request):
     return request
 
 def get_emotion(request):
-    emotion_detector = pipeline("text-classification", model="gokuls/BERT-tiny-emotion-intent", device="cpu")
+    emotion_detector = pipeline("text-classification", model="gokuls/BERT-tiny-emotion-intent", device="cpu", torch_dtype=torch.float16)
     emotion = emotion_detector(request)
     del emotion_detector
     gc.collect()
     return emotion
 
 def get_intent(request):
-    intent_detector = pipeline("text-classification", model="./tinybert_finetuned", device="cpu")
+    intent_detector = pipeline("text-classification", model="./tinybert_finetuned", device="cpu", torch_dtype=torch.float16)
     intent = intent_detector(request)
     del intent_detector
     gc.collect()
     return intent
 
 def get_syntax(request):
-    syntaxer = pipeline(model="vblagoje/bert-english-uncased-finetuned-pos", aggregation_strategy="simple", device="cpu")
+    syntaxer = pipeline(model="vblagoje/bert-english-uncased-finetuned-pos", aggregation_strategy="simple", device="cpu", torch_dtype=torch.float16)
     tokens=syntaxer(request)
     del syntaxer
     gc.collect()

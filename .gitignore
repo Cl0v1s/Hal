@@ -6,3 +6,4 @@ media/*.xcf
 venv
 tinybert_finetuned
 lib.so
+__pycache__

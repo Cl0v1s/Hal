@@ -3,8 +3,11 @@ from threading import Thread, Event
 
 instance = None
 
+
 def get_instance():
     return instance
+
+
 
 def attention(mode):
     instance.setIdleMode(mode == False, 2, 2);
@@ -16,7 +19,7 @@ def attention(mode):
         instance.setSpacebetween(14); 
     instance.setPosition(0)
 
-def loop():    
+def loop(ready, stop):    
     global instance
     roboEyes = CDLL('./lib.so')
     roboEyes.pollEvent.restype = c_bool
@@ -31,7 +34,9 @@ def loop():
     roboEyes.setSpacebetween(14); 
 
     instance = roboEyes
+    ready.set()
     quit = False
     while quit != True:
         quit = roboEyes.pollEvent();
         roboEyes.update();
+    stop.set()
