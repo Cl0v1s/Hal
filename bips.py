@@ -1,5 +1,12 @@
 import pyaudio
 import wave
+import eyes
+
+import os 
+
+def say(text):
+    eyes.get_instance().anim_laugh()
+    os.system('espeak -v en+f4 -m -p 10 -s 150 "{0}" 2>/dev/null'.format(text))
 
 def play(filename):
     chunk = 1024 
@@ -28,3 +35,6 @@ def playOk():
 
 def playSad():
     play("fx/sad.wav")
+
+if __name__ == "__main__":
+    say("Temperature: <prosody pitch='120'>10</prosody>; Wind: <prosody pitch='120'>10 kilometer per hour</prosody>")

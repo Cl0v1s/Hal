@@ -81,6 +81,13 @@ def get_intent(request):
     gc.collect()
     return intent
 
+def think(question, context):
+    thinker = pipeline("question-answering", model="dewdev/dynamic_tinybert", device="cpu", torch_dtype=torch.float16)
+    answer = thinker(question=question, context=context)
+    del thinker
+    gc.collect()
+    return answer
+
 def get_syntax(request):
     syntaxer = pipeline(model="vblagoje/bert-english-uncased-finetuned-pos", aggregation_strategy="simple", device="cpu", torch_dtype=torch.float16)
     tokens=syntaxer(request)

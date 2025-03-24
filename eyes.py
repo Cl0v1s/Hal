@@ -7,6 +7,11 @@ instance = None
 def get_instance():
     return instance
 
+def thinking(mode):
+    if mode:
+        instance.setMood(3)
+    else:
+        instance.setMood(0)
 
 
 def attention(mode):
