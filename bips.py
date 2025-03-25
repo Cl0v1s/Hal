@@ -1,6 +1,7 @@
 import pyaudio
 import wave
 import eyes
+import random
 
 import os 
 
@@ -23,6 +24,10 @@ def play(filename):
     stream.stop_stream()
     stream.close()
     p.terminate()
+
+def playGonk():
+    v = random.randint(1, 2)
+    play("fx/gonk"+ str(v) + ".wav")
 
 def playListen():
     play("fx/listen.wav")

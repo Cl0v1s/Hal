@@ -8,7 +8,7 @@ import time
 ready = Event()
 stop = Event()
 
-NAME = "Merci"
+NAME = "Bip"
 
 def getCurrentMemoryUsage():
     with open('/proc/self/status') as f:
@@ -38,12 +38,14 @@ if __name__ == "__main__":
                 eyes.attention(True)
 
                 # Get a new sample with the actual request
-                bips.playListen()
+                bips.playGonk()
                 buffer = brain.listen()
 
                 # Request processing
                 request = brain.understand(buffer)
                 eyes.attention(False)
+                if len(request.strip()) == 0:
+                    continue
                 eyes.get_instance().setMood(3)
                 eyes.get_instance().setIdleMode(False, 2, 2)
                 eyes.get_instance().setCuriosity(True)
@@ -54,24 +56,25 @@ if __name__ == "__main__":
 
                 # if(emotion["label"] == 'LABEL_3'):
                 #     eyes.get_instance().setMood(2)
+
+                print(request)
+                print(intent)
                 
-                int, fn = intent_index[intent["label"]]
                 if(intent["score"] < 0.80):
                     eyes.get_instance().anim_confused()
                     eyes.get_instance().setMood(1)
                     bips.playSad()
                 else:
+                    int, fn = intent_index[intent["label"]]
                     eyes.get_instance().setMood(0)
                     eyes.get_instance().anim_laugh()
-                    bips.playOk()
+                    bips.playGonk()
                     fn(int, request)
 
 
                 time.sleep(0.5)
                 eyes.attention(False)
-                print(request)
-                # print(emotion)
-                print(intent)
+  
                 print(getCurrentMemoryUsage())
                 time.sleep(2)
             except Exception as e:

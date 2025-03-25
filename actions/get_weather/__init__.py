@@ -156,6 +156,7 @@ async def weather_date(date, latitude = LATITUDE, longitude = LONGITUDE):
 async def weather_tomorrow(latitude = LATITUDE, longitude = LONGITUDE):
     date = datetime.today()
     date += timedelta(days=1)
+    bips.say("Tomorrow;")
     return await weather_date(date, latitude, longitude)
 
 async def weather_weekend(latitude = LATITUDE, longitude = LONGITUDE):
@@ -179,6 +180,7 @@ async def weather_now(latitude = LATITUDE, longitude = LONGITUDE):
             current_weather=True
         )
     eyes.thinking(False)
+    bips.say("Now;")
     bips.say("Sky: <prosody pitch='120'>{0}</prosody>;".format(weather_codes[forecast.current_weather.weather_code]))
     bips.say("Temperature: <prosody pitch='120'>{0}</prosody>;".format(forecast.current_weather.temperature))
     bips.say("Wind: <prosody pitch='120'>{0}</prosody>".format(forecast.current_weather.wind_speed))
@@ -189,6 +191,7 @@ async def weather_city(request):
     placeScore, _, _, city = brain.think("What city or place is mentioned there ?", request).values()
     location = open_street_map.geocode(city).raw
     print("Fetching the weather in {0} with confidence {1}".format(city, placeScore))
+    bips.say("In "+city+";")
     weatherScore = await weather_now(location["lat"], location["lon"])
     eyes.thinking(False)
     return placeScore * weatherScore
@@ -203,7 +206,7 @@ def main(intent, request):
         case "WEATHER_TOMORROW":
             return asyncio.run(weather_tomorrow())
         case "WEATHER_WEEKEND":
-            return asyncio.run(weather_weekend(request))
+            return asyncio.run(weather_weekend())
         case "WEATHER_CITY":
             return asyncio.run(weather_city(request))
         case _:

@@ -46,7 +46,7 @@ silvero = load_silero_vad()
 def wait_for_call(name):
     was_called = False
     while was_called == False:
-        buffer = listen(1.5)
+        buffer = listen(2)
         wav = torch.tensor(np.frombuffer(buffer, dtype=np.int16))
         speech_timestamps = get_speech_timestamps(
             wav,
@@ -54,7 +54,7 @@ def wait_for_call(name):
             return_seconds=True,
         )
         if(len(speech_timestamps) > 0):
-            if((speech_timestamps[0]["end"] - speech_timestamps[0]["start"]) <= 1):
+            if((speech_timestamps[0]["end"] - speech_timestamps[0]["start"]) <= 1.5):
                 request = understand(buffer)
                 was_called = (name.lower() in request.lower())
 
