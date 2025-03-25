@@ -1,6 +1,6 @@
 [
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "What's the weather like today?"
     },
     {
@@ -12,15 +12,15 @@
         "text": "Will it rain this weekend?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "What is the current temperature?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Will I need an umbrella?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "What's the weather like tonight?"
     },
     {
@@ -28,11 +28,7 @@
         "text": "Will it be sunny tomorrow?"
     },
     {
-        "label": "WEATHER_SPECIFIC_DATE",
-        "text": "What's the weather like next week?"
-    },
-    {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is it going to snow soon?"
     },
     {
@@ -44,11 +40,11 @@
         "text": "What will the weather be like tomorrow morning?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Will it be windy today?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "What's the weather like tonight?"
     },
     {
@@ -56,7 +52,7 @@
         "text": "Will it be cold this weekend?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "What's the weather like this afternoon?"
     },
     {
@@ -80,67 +76,67 @@
         "text": "Will I need a coat in Berlin?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "What's today's weather like?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Is it going to rain today?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Tell me the weather forecast."
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Will it be hot this afternoon?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Do I need a jacket?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "How's the weather looking?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Any chance of thunderstorms?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Will I need sunglasses today?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Check the forecast for tonight."
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is there a storm coming?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Will it be windy today?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is it snowing anywhere nearby?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Give me an update on the temperature."
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "What's the UV index today?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is it safe to go for a run outside?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Will it be cold this evening?"
     },
     {
@@ -148,7 +144,7 @@
         "text": "How’s the weather looking for the weekend?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Tell me if there's a heatwave coming."
     },
     {
@@ -156,11 +152,11 @@
         "text": "Should I bring an umbrella tomorrow?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "What’s the humidity level today?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is it foggy outside?"
     },
     {
@@ -172,7 +168,7 @@
         "text": "Will it be humid tomorrow?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Can you check the wind speed?"
     },
     {
@@ -184,23 +180,19 @@
         "text": "How warm will it be this weekend?"
     },
     {
-        "label": "WEATHER_SPECIFIC_PLACE",
-        "text": "Will it snow in the mountains?"
-    },
-    {
         "label": "WEATHER_CITY",
         "text": "What's the weather update for London?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Is there a chance of hail today?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "What’s the air quality like?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "How cold is it right now?"
     },
     {
@@ -208,7 +200,7 @@
         "text": "Forecast for Chicago this evening?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Is it raining right now?"
     },
     {
@@ -220,15 +212,15 @@
         "text": "How warm will it be this Saturday?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "What’s the temperature at my location?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Do I need a raincoat today?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Will it be foggy tonight?"
     },
     {
@@ -236,11 +228,7 @@
         "text": "Is there a chance of storms tomorrow?"
     },
     {
-        "label": "WEATHER_SPECIFIC_DATE",
-        "text": "What’s the weather like next Friday?"
-    },
-    {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is it going to be a hot afternoon?"
     },
     {
@@ -252,11 +240,11 @@
         "text": "How cold will it be in the morning?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Is there a heatwave today?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "What’s the wind speed right now?"
     },
     {
@@ -264,7 +252,7 @@
         "text": "Will there be a storm on Sunday?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "How humid is it today?"
     },
     {
@@ -288,59 +276,59 @@
         "text": "Is it snowing in Moscow?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "What’s today’s weather summary?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Is there a thunderstorm warning?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Give me the weather details for my area."
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Is it safe to go hiking today?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Do I need gloves?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "What’s the air pressure today?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Any chance of hail tonight?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Will I need a hat today?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Is it warm enough for a picnic?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "What’s the weather update for my city?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Should I expect strong winds today?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is the sun shining right now?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Is there a snowstorm coming?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is it a good day for a run?"
     },
     {
@@ -348,7 +336,7 @@
         "text": "Will it be nice for a beach trip?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is the air quality safe today?"
     },
     {
@@ -356,11 +344,11 @@
         "text": "Should I prepare for a cold night tomorrow?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "What’s the current UV index?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Is it snowing outside?"
     },
     {
@@ -372,7 +360,7 @@
         "text": "How humid will it be tomorrow?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Check today’s wind conditions."
     },
     {
@@ -384,19 +372,63 @@
         "text": "Is it good weather for camping this weekend?"
     },
     {
-        "label": "WEATHER_SPECIFIC_PLACE",
-        "text": "Will it snow in the Alps?"
-    },
-    {
         "label": "WEATHER_CITY",
         "text": "Is it raining in Dubai?"
     },
     {
-        "label": "WEATHER_TODAY",
+        "label": "WEATHER_AT",
         "text": "Any risk of frost today?"
     },
     {
-        "label": "WEATHER_HERE",
+        "label": "WEATHER_NOW",
         "text": "Is the air dry or humid right now?"
-    }
+    },
+    {"label": "WEATHER_AT", "text": "What's the weather like at 3 o'clock?"},
+    {"label": "WEATHER_AT", "text": "Will it rain at 5 o'clock?"},
+    {"label": "WEATHER_AT", "text": "How hot will it be at 7 o'clock?"},
+    {"label": "WEATHER_AT", "text": "Is it going to snow at 10 o'clock?"},
+    {"label": "WEATHER_AT", "text": "Will it be windy at 12 o'clock?"},
+    {"label": "WEATHER_AT", "text": "What's the forecast for 15 past 3?"},
+    {"label": "WEATHER_AT", "text": "Is there a chance of rain at 20 past 4?"},
+    {"label": "WEATHER_AT", "text": "Will it be sunny at 25 past 5?"},
+    {"label": "WEATHER_AT", "text": "How warm will it be at 30 past 6?"},
+    {"label": "WEATHER_AT", "text": "What’s the temperature at 40 past 7?"},
+    {"label": "WEATHER_AT", "text": "What's the weather like at 10 to 8?"},
+    {"label": "WEATHER_AT", "text": "Is there a thunderstorm at 5 to 9?"},
+    {"label": "WEATHER_AT", "text": "Will it be cloudy at 20 to 10?"},
+    {"label": "WEATHER_AT", "text": "Will I need a jacket at 25 to 11?"},
+    {"label": "WEATHER_AT", "text": "What's the humidity level at 10 AM?"},
+    {"label": "WEATHER_AT", "text": "How's the weather at 6 AM?"},
+    {"label": "WEATHER_AT", "text": "Will it be foggy at 8 AM?"},
+    {"label": "WEATHER_AT", "text": "Is it safe to go outside at 11 AM?"},
+    {"label": "WEATHER_AT", "text": "Is it going to be hot at 7 AM?"},
+    {"label": "WEATHER_AT", "text": "What's the temperature at 1 PM?"},
+    {"label": "WEATHER_AT", "text": "Will I need an umbrella at 4 PM?"},
+    {"label": "WEATHER_AT", "text": "Is it windy at 2 PM?"},
+    {"label": "WEATHER_AT", "text": "Will it rain at 5 PM?"},
+    {"label": "WEATHER_AT", "text": "What’s the air quality at 9 PM?"},
+    {"label": "WEATHER_AT", "text": "Is there a storm coming at 3 o'clock?"},
+    {"label": "WEATHER_AT", "text": "Will it be cold at 6 o'clock?"},
+    {"label": "WEATHER_AT", "text": "How’s the weather at 11 o'clock?"},
+    {"label": "WEATHER_AT", "text": "Will it be warm at 15 past 2?"},
+    {"label": "WEATHER_AT", "text": "Is it going to be chilly at 20 past 5?"},
+    {"label": "WEATHER_AT", "text": "What’s the forecast at 25 past 7?"},
+    {"label": "WEATHER_AT", "text": "Will it be stormy at 30 past 9?"},
+    {"label": "WEATHER_AT", "text": "What’s the UV index at 40 past 11?"},
+    {"label": "WEATHER_AT", "text": "Is it safe to drive at 10 to 6?"},
+    {"label": "WEATHER_AT", "text": "Will there be lightning at 5 to 7?"},
+    {"label": "WEATHER_AT", "text": "Is it going to drizzle at 20 to 8?"},
+    {"label": "WEATHER_AT", "text": "Will it be clear at 25 to 10?"},
+    {"label": "WEATHER_AT", "text": "Is it humid at 9 AM?"},
+    {"label": "WEATHER_AT", "text": "Do I need sunglasses at 3 PM?"},
+    {"label": "WEATHER_AT", "text": "How’s the wind at 2 AM?"},
+    {"label": "WEATHER_AT", "text": "What’s the temperature at 11 PM?"},
+    {"label": "WEATHER_AT", "text": "Will it be freezing at 6 AM?"},
+    {"label": "WEATHER_AT", "text": "What’s the dew point at 10 PM?"},
+    {"label": "WEATHER_AT", "text": "Will it be cloudy at 4 AM?"},
+    {"label": "WEATHER_AT", "text": "Is there a heatwave at 8 AM?"},
+    {"label": "WEATHER_AT", "text": "Is it safe to jog at 7 AM?"},
+    {"label": "WEATHER_AT", "text": "Will it be misty at 5 to 12?"},
+    {"label": "WEATHER_AT", "text": "What's the visibility at 30 past 3?"},
+    {"label": "WEATHER_AT", "text": "Will it snow at 20 past 6?"}
 ]
