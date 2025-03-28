@@ -8,8 +8,6 @@ import time
 ready = Event()
 stop = Event()
 
-NAME = "Bip"
-
 def getCurrentMemoryUsage():
     with open('/proc/self/status') as f:
         memusage = f.read().split('VmRSS:')[1].split('\n')[0]
@@ -34,7 +32,7 @@ if __name__ == "__main__":
             try:
 
                 # Waiting for someone to call Luxie
-                brain.wait_for_call(NAME)
+                brain.wait_for_call()
                 eyes.attention(True)
 
                 # Get a new sample with the actual request

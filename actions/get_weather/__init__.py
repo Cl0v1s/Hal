@@ -57,7 +57,7 @@ INTENTS = [
 open_street_map = Nominatim(user_agent="luxy")
 
 def to_number(number):
-    if number.isDigit():
+    if number.isdigit():
         return int(number)
     else:
         return w2n.word_to_num(number)

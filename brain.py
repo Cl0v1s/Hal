@@ -1,11 +1,18 @@
 import gc
 import pyaudio
-from transformers import pipeline, MarianTokenizer, MarianMTModel, WhisperForConditionalGeneration
+from transformers import pipeline, MarianTokenizer, MarianMTModel
 import sounddevice as sd
 import torch
 import numpy as np
 import whisper
-from silero_vad import load_silero_vad, get_speech_timestamps
+import os
+from eff_word_net.streams import SimpleMicStream
+from eff_word_net.engine import HotwordDetector
+
+from eff_word_net.audio_processing import Resnet50_Arc_loss
+
+from eff_word_net import samples_loc
+
 
 device = sd.default.device[0]
 
@@ -32,31 +39,41 @@ def listen(record_secs = 3):
     stream.stop_stream()
     stream.close()
     audio.terminate()
-    return b''.join(frames)
+    return frames
 
 # Load model in memory so it's always ready
 whisper_model = whisper.load_model("small")
 def understand(buffer):
-    w = np.frombuffer(buffer, np.int16).flatten().astype(np.float32) / 32768.0 
+    w = np.frombuffer(b''.join(buffer), np.int16).flatten().astype(np.float32) / 32768.0 
     result = whisper_model.transcribe(w, language="fr")
     print("Transcription: {0}".format(result["text"]))
     return result["text"]
 
-silvero = load_silero_vad()
-def wait_for_call(name):
-    was_called = False
-    while was_called == False:
-        buffer = listen(2)
-        wav = torch.tensor(np.frombuffer(buffer, dtype=np.int16))
-        speech_timestamps = get_speech_timestamps(
-            wav,
-            silvero,
-            return_seconds=True,
-        )
-        if(len(speech_timestamps) > 0):
-            if((speech_timestamps[0]["end"] - speech_timestamps[0]["start"]) <= 1.5):
-                request = understand(buffer)
-                was_called = (name.lower() in request.lower())
+base_model = Resnet50_Arc_loss()
+def wait_for_call():
+
+    mycroft_hw = HotwordDetector(
+        hotword="alexa",
+        model = base_model,
+        reference_file=os.path.join(samples_loc, "alexa_ref.json"),
+        threshold=0.7,
+        relaxation_time=2
+    )
+    mic_stream = SimpleMicStream(
+        window_length_secs=1.5,
+        sliding_window_secs=0.75,
+    )
+    mic_stream.start_stream()
+    called = False
+    while called == False:
+        frame = mic_stream.getFrame()
+        result = mycroft_hw.scoreFrame(frame)
+        print(result)
+        if(result != None and result["match"]):
+            print("Wakeword uttered",result["confidence"])
+            called = True
+    mic_stream.close_stream()
+
 
 def translate(request):
     tokenizer = MarianTokenizer.from_pretrained("Helsinki-NLP/opus-mt-fr-en")
