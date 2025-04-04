@@ -187,7 +187,7 @@ public:
     {
         screenWidth = width;     // OLED display width, in pixels
         screenHeight = height;   // OLED display height, in pixels
-        display.clearDisplay();  // clear the display buffer
+        display.clear(0, 0, width, height);  // clear the display buffer
         display.display();       // show empty screen
         eyeLheightCurrent = 1;   // start with closed eyes
         eyeRheightCurrent = 1;   // start with closed eyes
@@ -664,7 +664,7 @@ public:
 
         //// ACTUAL DRAWINGS ////
 
-        display.clearDisplay(); // start with a blank screen
+        display.clear(0, 0, screenWidth, screenHeight); // start with a blank screen
 
         // Draw basic eye rectangles
         display.fillRoundRect(eyeLx, eyeLy, eyeLwidthCurrent, eyeLheightCurrent, eyeLborderRadiusCurrent, MAINCOLOR); // left eye

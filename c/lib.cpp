@@ -2,6 +2,7 @@ extern "C" {
     #include "./compat.h"
     #include "./display.h"
     #include "./eyes.h"
+    #include "./text.h"
 
     SDL_Event e;
     bool pollEvent() {
@@ -18,14 +19,19 @@ extern "C" {
     }
 
     RoboEyes roboEyes;
+    TextUI textUI;
 
     void setColors(int bgr, int bgg, int bgb, int mainr, int maing, int mainb) {
         roboEyes.BGCOLOR = display.GetColor(bgr, bgg, bgb, 255);
         roboEyes.MAINCOLOR = display.GetColor(mainr, maing, mainb, 255);
     }
 
-    void begin(int w, int h, int rate) {
+    void beginEyes(int w, int h, int rate) {
         roboEyes.begin(w, h, rate);
+    }
+
+    void beginText(int x, int y, int w, int h) {
+        textUI.begin(x, y, w, h);
     }
 
     void setAutoblinker(bool active, int interval, int var) {
@@ -38,6 +44,7 @@ extern "C" {
 
     void update() {
         roboEyes.update();
+        textUI.update();
     }
 
     void setWidth(int left, int right) {
@@ -52,8 +59,8 @@ extern "C" {
         roboEyes.setBorderradius(left, right);
     }
 
-    void setSpacebetween(int spacce) {
-        roboEyes.setSpacebetween(spacce);
+    void setSpacebetween(int space) {
+        roboEyes.setSpacebetween(space);
     }
 
     void setMood(unsigned char mood) {
@@ -83,5 +90,9 @@ extern "C" {
 
     void anim_laugh() {
         roboEyes.anim_laugh();
+    }
+
+    void write(char* text) {
+        textUI.write(text);
     }
 }

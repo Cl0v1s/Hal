@@ -30,23 +30,28 @@ if __name__ == "__main__":
             eyes.get_instance().setMood(0)
 
             try:
-
+                eyes.get_instance().write(" ".encode("utf-8"))
+                eyes.attention(False)
                 # Waiting for someone to call Luxie
                 brain.wait_for_call()
                 eyes.attention(True)
 
                 # Get a new sample with the actual request
                 bips.playGonk()
+                eyes.get_instance().write("??".encode("utf-8"))
                 buffer = brain.listen()
 
                 # Request processing
                 request = brain.understand(buffer)
-                eyes.attention(False)
-                if len(request.strip()) == 0:
+                if len(request.replace('.', '').strip()) == 0:
+                    eyes.get_instance().write("...".encode("utf-8"))
+                    time.sleep(2)
                     continue
+                eyes.attention(False)
                 eyes.get_instance().setMood(3)
                 eyes.get_instance().setIdleMode(False, 2, 2)
                 eyes.get_instance().setCuriosity(True)
+                eyes.get_instance().write((">" + request).encode("utf-8"))
                 request = brain.translate(request)
                 # emotion = brain.get_emotion(request)[0]
                 intent = brain.get_intent(request)[0]
@@ -71,7 +76,6 @@ if __name__ == "__main__":
 
 
                 time.sleep(0.5)
-                eyes.attention(False)
   
                 print(getCurrentMemoryUsage())
                 time.sleep(2)

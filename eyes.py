@@ -26,22 +26,28 @@ def attention(mode):
 
 def loop(ready, stop):    
     global instance
-    roboEyes = CDLL('./lib.so')
-    roboEyes.pollEvent.restype = c_bool
-    roboEyes.initMillis()
-    roboEyes.setColors(0,0,0, 255, 255, 255)
-    roboEyes.begin(200, 200, 30)
-    roboEyes.setAutoblinker(True, 3, 2); 
-    roboEyes.setIdleMode(True, 2, 2);
-    roboEyes.setWidth(36, 36); 
-    roboEyes.setHeight(42, 42); 
-    roboEyes.setBorderradius(8, 8); 
-    roboEyes.setSpacebetween(14); 
+    ui = CDLL('./lib.so')
+    ui.pollEvent.restype = c_bool
+    ui.initMillis()
+    ui.setColors(0,0,0, 255, 255, 255)
+    ui.beginEyes(300, 200, 30)
+    ui.beginText(0, 200, 300, 100)
+    ui.setAutoblinker(True, 3, 2); 
+    ui.setIdleMode(True, 2, 2);
+    ui.setWidth(36, 36); 
+    ui.setHeight(42, 42); 
+    ui.setBorderradius(8, 8); 
+    ui.setSpacebetween(14); 
 
-    instance = roboEyes
+    instance = ui
     ready.set()
     quit = False
     while quit != True:
-        quit = roboEyes.pollEvent();
-        roboEyes.update();
+        quit = ui.pollEvent();
+        ui.update()
     stop.set()
+
+if __name__ == "__main__":
+    ready = Event()
+    stop = Event()
+    loop(ready, stop)

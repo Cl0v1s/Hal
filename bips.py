@@ -2,11 +2,13 @@ import pyaudio
 import wave
 import eyes
 import random
+import re
 
 import os 
 
 def say(text):
     eyes.get_instance().anim_laugh()
+    eyes.get_instance().write(re.sub(r'<.+?/?>', '', text).encode("utf-8"))
     os.system('espeak -v en+f4 -m -p 10 -s 150 "{0}" 2>/dev/null'.format(text))
 
 def play(filename):
