@@ -8,11 +8,19 @@ INTENTS = [
 ]
 
 import os
+import bips
+
+def check_auth():
+    return os.path.isfile(".config/spotify-cli/credentials.json")
+    
+def auth():
+    bips.playError()
+    bips.say("Please log into Spotify with command 'spotify auth login'")
+    print("Need login: https://pypi.org/project/spotify-cli/")
 
 def next():
     os.system("spotify next")
     return 1
-
 
 def previous():
     os.system("spotify previous")
@@ -35,6 +43,9 @@ def softer():
     return 1
 
 def main(intent, request):
+    if check_auth() == False:
+        auth()
+        return 0
     match intent:
         case "SPOTIFY_NEXT":
             return next()
