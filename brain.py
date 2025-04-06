@@ -50,12 +50,16 @@ def understand(buffer):
     return result["text"]
 
 base_model = Resnet50_Arc_loss()
+name_files = os.listdir("name")
+reference_file = [name for name in name_files if name.endswith("_ref.json")]
+if(len(reference_file) == 0):
+    raise Exception("You must train this system with a hotword, please run 'invoke learnName <name>'")
+reference_file = reference_file[0]
 def wait_for_call():
-
     mycroft_hw = HotwordDetector(
-        hotword="alexa",
+        hotword=reference_file.replace('_ref.json', ''),
         model = base_model,
-        reference_file=os.path.join(samples_loc, "alexa_ref.json"),
+        reference_file=os.path.join("name", reference_file),
         threshold=0.7,
         relaxation_time=2
     )

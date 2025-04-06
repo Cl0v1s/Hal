@@ -7,11 +7,12 @@ INTENTS = [
     "SPOTIFY_SOFTER",
 ]
 
+from pathlib import Path
 import os
 import bips
 
 def check_auth():
-    return os.path.isfile(".config/spotify-cli/credentials.json")
+    return os.path.isfile(os.path.join(str(Path.home()), ".config/spotify-cli/credentials.json"))
     
 def auth():
     bips.playError()

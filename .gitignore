@@ -1,6 +1,4 @@
 *.llamafile
-*.mp3
-*.wav
 *.log
 media/*.xcf
 venv

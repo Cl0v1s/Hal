@@ -130,3 +130,4 @@ urllib3==1.26.20
 uvicorn==0.34.0
 xxhash==3.5.0
 yarl==1.18.3
+typer==0.15.2
