@@ -1,470 +1,1174 @@
 [
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play my favorite playlist."
+        "label": "SPOTIFY_NEXT",
+        "text": "Play the next song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play some classical music."
+        "label": "SPOTIFY_NEXT",
+        "text": "Skip this track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to this song for me."
+        "label": "SPOTIFY_NEXT",
+        "text": "Next song, please."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play the jazz album."
+        "label": "SPOTIFY_NEXT",
+        "text": "Can you skip to the next one?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play something relaxing."
+        "label": "SPOTIFY_NEXT",
+        "text": "Go to the next track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play my rock playlist."
+        "label": "SPOTIFY_NEXT",
+        "text": "Move to the next song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play something romantic."
+        "label": "SPOTIFY_NEXT",
+        "text": "Change to the next track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to this artist for me."
+        "label": "SPOTIFY_NEXT",
+        "text": "Skip forward."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play some electronic music."
+        "label": "SPOTIFY_NEXT",
+        "text": "Go ahead to the next one."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play my favorite song."
+        "label": "SPOTIFY_NEXT",
+        "text": "Next track, please."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play a piano piece."
+        "label": "SPOTIFY_NEXT",
+        "text": "Could you play the next song?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play my workout playlist."
+        "label": "SPOTIFY_NEXT",
+        "text": "Forward to the next track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to this new release."
+        "label": "SPOTIFY_NEXT",
+        "text": "Pass this song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start a party mix."
+        "label": "SPOTIFY_NEXT",
+        "text": "Jump to the next track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play something to relax."
+        "label": "SPOTIFY_NEXT",
+        "text": "Let’s hear the next one."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play some Drake for me."
+        "label": "SPOTIFY_NEXT",
+        "text": "Go to the next song in the playlist."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to Taylor Swift's latest album."
+        "label": "SPOTIFY_NEXT",
+        "text": "Play what's next."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play something by Beyoncé."
+        "label": "SPOTIFY_NEXT",
+        "text": "Move on to the next song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start a song by The Weeknd."
+        "label": "SPOTIFY_NEXT",
+        "text": "Switch to the next track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play a track by Ed Sheeran."
+        "label": "SPOTIFY_NEXT",
+        "text": "Hit me with the next song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play some upbeat music."
+        "label": "SPOTIFY_NEXT",
+        "text": "Skip this one."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start my favorite album."
+        "label": "SPOTIFY_NEXT",
+        "text": "Go forward one track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on some jazz tunes."
+        "label": "SPOTIFY_NEXT",
+        "text": "Play the next tune."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Can you play some soft rock?"
+        "label": "SPOTIFY_NEXT",
+        "text": "I want to hear the next track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "I’d like to hear some blues."
+        "label": "SPOTIFY_NEXT",
+        "text": "Please skip this song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Turn on my workout mix."
+        "label": "SPOTIFY_NEXT",
+        "text": "Next one, please."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Let’s listen to some reggae."
+        "label": "SPOTIFY_NEXT",
+        "text": "Can we go to the next song?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play a chill playlist."
+        "label": "SPOTIFY_NEXT",
+        "text": "Queue the next track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Give me some metal music."
+        "label": "SPOTIFY_NEXT",
+        "text": "Fast forward to the next song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Set the mood with some R&B."
+        "label": "SPOTIFY_NEXT",
+        "text": "Let's skip ahead."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "I want to hear some hip-hop."
+        "label": "SPOTIFY_NEXT",
+        "text": "Move ahead to the next song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on some acoustic tracks."
+        "label": "SPOTIFY_NEXT",
+        "text": "Advance to the next track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Can you find some indie music?"
+        "label": "SPOTIFY_NEXT",
+        "text": "Push to the next song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Let's vibe to some lo-fi."
+        "label": "SPOTIFY_NEXT",
+        "text": "Shuffle to the next one."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play a relaxing piano piece."
+        "label": "SPOTIFY_NEXT",
+        "text": "Next up, please."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Surprise me with a song!"
+        "label": "SPOTIFY_NEXT",
+        "text": "Can we hear the next one?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Find a trending pop song."
+        "label": "SPOTIFY_NEXT",
+        "text": "Let's hear what's next."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "What’s a good folk song?"
+        "label": "SPOTIFY_NEXT",
+        "text": "Go next."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play a song that makes me happy."
+        "label": "SPOTIFY_NEXT",
+        "text": "Proceed to the next track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Give me something nostalgic."
+        "label": "SPOTIFY_NEXT",
+        "text": "Hop to the next song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play some instrumental background music."
+        "label": "SPOTIFY_NEXT",
+        "text": "Play the following track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on an 80s throwback mix."
+        "label": "SPOTIFY_NEXT",
+        "text": "Play the next jam."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start a playlist for reading."
+        "label": "SPOTIFY_NEXT",
+        "text": "I want the next song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "I want to listen to some EDM."
+        "label": "SPOTIFY_NEXT",
+        "text": "Play next in the queue."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Give me some opera music."
+        "label": "SPOTIFY_NEXT",
+        "text": "Move to what’s next."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on my relaxation playlist."
+        "label": "SPOTIFY_NEXT",
+        "text": "Next audio track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "What’s a good jazz fusion album?"
+        "label": "SPOTIFY_NEXT",
+        "text": "Can you jump ahead?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Let’s listen to some movie soundtracks."
+        "label": "SPOTIFY_NEXT",
+        "text": "Go one song forward."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Find me a good country song."
+        "label": "SPOTIFY_NEXT",
+        "text": "Skip to the next in line."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play something for a road trip."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Play the previous song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Blinding Lights' by The Weeknd."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Go back to the last track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Shape of You' by Ed Sheeran."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Play the song before this one."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Someone Like You' by Adele."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Previous song, please."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Bohemian Rhapsody' by Queen."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Can you go to the previous song?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Lose Yourself' by Eminem."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Back to the last track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "I want to hear 'Hallelujah' by Jeff Buckley."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Rewind to the previous song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue up 'Rolling in the Deep' by Adele."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Go to the previous track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Smells Like Teen Spirit' by Nirvana."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Can you play the last song again?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Hotel California' by Eagles."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "I want to hear the previous song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Billie Jean' by Michael Jackson."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Skip back to the previous one."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Thinking Out Loud' by Ed Sheeran."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Go back one song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Uptown Funk' by Bruno Mars."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Replay the last track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Wonderwall' by Oasis."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Take me back to the last song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Take On Me' by A-ha."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Can we go back a track?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "I want to hear 'Sweet Child O' Mine' by Guns N' Roses."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Back to the previous one."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Perfect' by Ed Sheeran."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Play the track before this one."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Seven Nation Army' by The White Stripes."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Last song, please."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Hello' by Adele."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Please replay the previous track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Bad Guy' by Billie Eilish."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Go back in the playlist."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Counting Stars' by OneRepublic."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Play what was before."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Shallow' by Lady Gaga & Bradley Cooper."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Previous one, please."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Let Her Go' by Passenger."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Go back one track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Happier' by Marshmello & Bastille."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Play the earlier song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Radioactive' by Imagine Dragons."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "I want to listen to the last song again."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Clocks' by Coldplay."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Play the song that came before."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Can't Stop the Feeling!' by Justin Timberlake."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Take it back one song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Photograph' by Ed Sheeran."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Rewind one track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Wake Me Up' by Avicii."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Let me hear the last song again."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Titanium' by David Guetta ft. Sia."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Go one track back."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Viva La Vida' by Coldplay."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Bring back the previous song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Love Me Like You Do' by Ellie Goulding."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Can we go to the track before this?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Counting Stars' by OneRepublic."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Previous track, please."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Senorita' by Shawn Mendes & Camila Cabello."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Back to the earlier track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Take Me to Church' by Hozier."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Return to the last song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Sucker' by Jonas Brothers."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Let's go back one song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Bad Romance' by Lady Gaga."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Replay the one before this."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Call Me Maybe' by Carly Rae Jepsen."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Can you rewind to the previous song?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Happy' by Pharrell Williams."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Rewind to the last track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Somebody That I Used to Know' by Gotye."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "I want the song before this."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Believer' by Imagine Dragons."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Play the previous jam."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Demons' by Imagine Dragons."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Back up to the last song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Lean On' by Major Lazer & DJ Snake."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Go back in the queue."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'The Middle' by Zedd, Maren Morris & Grey."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Please go to the earlier track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Firework' by Katy Perry."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "I’d like to hear the one before."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Roar' by Katy Perry."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Backtrack one song."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Shake It Off' by Taylor Swift."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Let’s listen to the last one again."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Blank Space' by Taylor Swift."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Roll back to the previous track."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'ME!' by Taylor Swift ft. Brendon Urie."
+        "label": "SPOTIFY_PREVIOUS",
+        "text": "Go back a step in the playlist."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Lover' by Taylor Swift."
+        "label": "SPOTIFY_PLAY",
+        "text": "Play the music."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'God’s Plan' by Drake."
+        "label": "SPOTIFY_PLAY",
+        "text": "Start playing my playlist."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Hotline Bling' by Drake."
+        "label": "SPOTIFY_PLAY",
+        "text": "Can you play some music?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Sicko Mode' by Travis Scott."
+        "label": "SPOTIFY_PLAY",
+        "text": "Hit play."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Sunflower' by Post Malone & Swae Lee."
+        "label": "SPOTIFY_PLAY",
+        "text": "Resume the music."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Circles' by Post Malone."
+        "label": "SPOTIFY_PLAY",
+        "text": "Continue playing."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Rockstar' by Post Malone ft. 21 Savage."
+        "label": "SPOTIFY_PLAY",
+        "text": "Start the music."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Congratulations' by Post Malone."
+        "label": "SPOTIFY_PLAY",
+        "text": "Play my last session."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'HUMBLE.' by Kendrick Lamar."
+        "label": "SPOTIFY_PLAY",
+        "text": "Put on some music."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'DNA.' by Kendrick Lamar."
+        "label": "SPOTIFY_PLAY",
+        "text": "Play something good."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Alright' by Kendrick Lamar."
+        "label": "SPOTIFY_PLAY",
+        "text": "Play songs."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'Lucid Dreams' by Juice WRLD."
+        "label": "SPOTIFY_PLAY",
+        "text": "Resume Spotify."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'XO TOUR Llif3' by Lil Uzi Vert."
+        "label": "SPOTIFY_PLAY",
+        "text": "Play audio."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Goosebumps' by Travis Scott."
+        "label": "SPOTIFY_PLAY",
+        "text": "Can you start the music again?"
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Play 'Savage Love' by Jason Derulo."
+        "label": "SPOTIFY_PLAY",
+        "text": "Play my last playlist."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Start 'Watermelon Sugar' by Harry Styles."
+        "label": "SPOTIFY_PLAY",
+        "text": "Play something from Spotify."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Listen to 'As It Was' by Harry Styles."
+        "label": "SPOTIFY_PLAY",
+        "text": "Put my music back on."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Put on 'Sign of the Times' by Harry Styles."
+        "label": "SPOTIFY_PLAY",
+        "text": "Get the music going."
     },
     {
-        "label": "PLAY_MUSIC",
-        "text": "Queue 'Golden' by Harry Styles."
+        "label": "SPOTIFY_PLAY",
+        "text": "Play some tunes."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "I want to hear some music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Play the songs now."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Unpause the music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Continue the playlist."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Resume playing my music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Spotify, play."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Start Spotify."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Let's play some music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Can we get the music going?"
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Restart the music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Play back the music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Begin music playback."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Start playing audio."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Put on my music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Music on, please."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Fire up the music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Let's resume playback."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Kick off the playlist."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Time for music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Let’s get the music started."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Go ahead and play."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Crank up the music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Turn the music back on."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Resume where we left off."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Play it now."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Launch the music."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Time to play songs."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Spotify, resume playback."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Start my songs."
+    },
+    {
+        "label": "SPOTIFY_PLAY",
+        "text": "Resume from where we stopped."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause the music."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Stop the song for now."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Can you pause Spotify?"
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause playback."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Hold the music."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Please pause the current track."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause everything."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Stop playing music."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause the song right now."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Can you stop the music?"
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Put the music on pause."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause the playlist."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Take a break from the music."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Mute and pause."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Stop the audio."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause that track."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Hold on the music."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause the tunes."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Turn off the music for a bit."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause music, please."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "I want to pause this."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Stop this song."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Please stop the track."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause the sound."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause what’s playing."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Spotify pause."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Put Spotify on hold."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause this music for now."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Interrupt the song."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Freeze the playback."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Temporarily stop the music."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause it now."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Stop Spotify."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Can we pause the current song?"
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "End this track for now."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Just pause it."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause right here."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Let’s pause the song."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Can you freeze the song?"
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause the current audio."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Suspend playback."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Put the song on hold."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause the track that’s playing."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Stop the track for now."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause the current playlist."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Can we stop the music?"
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Pause it, please."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Time to pause."
+    },
+    {
+        "label": "SPOTIFY_PAUSE",
+        "text": "Spotify, please pause the music."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Turn up the volume."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Make it louder."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Increase the volume."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Raise the sound."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Pump up the volume."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Can you make it louder?"
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Volume up, please."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Put the volume higher."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Louder, please."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Can you increase the sound?"
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "I want it louder."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Turn it up."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Raise the volume a bit."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Add more volume."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Can you boost the volume?"
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Make the music louder."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Crank up the sound."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Make it sound louder."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Raise the audio level."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Turn the music up."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Boost the sound."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Increase the music volume."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Turn up the audio."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Turn Spotify louder."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Volume louder, please."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Pump it up!"
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Can we go louder?"
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Increase it a notch."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Louder sound, please."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Turn up the beat."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Raise the speaker volume."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Give me more volume."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Make Spotify louder."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Louder playback."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Amplify the music."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "More volume, please."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Let’s turn it up."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Can you make it louder than this?"
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Put the sound up."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Raise the volume on Spotify."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "I need more sound."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Go louder."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Boost the volume up."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Make the song louder."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Louder audio, please."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Volume up a bit more."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Increase the speaker volume."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Let’s go louder with the music."
+    },
+    {
+        "label": "SPOTIFY_LOUDER",
+        "text": "Crank it up!"
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Turn down the volume."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Make it quieter."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Lower the sound."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Can you reduce the volume?"
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Lower the music, please."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Make it less loud."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Volume down."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Please turn it down."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Reduce the audio."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Bring the volume down."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Lower the volume a bit."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Can you make it softer?"
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Turn it down a notch."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Put the volume lower."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Reduce Spotify volume."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Make the music softer."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Can you decrease the sound?"
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Turn the music down."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Lower the volume on Spotify."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Drop the volume."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Softer music, please."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Make it a little quieter."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Quiet it down a bit."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Reduce the speaker volume."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Cut the volume down."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Lower that track."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Tone down the volume."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Please make the audio softer."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Can we go a bit quieter?"
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Please quiet the music."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Just lower it."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Take the volume down a level."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Quieter sound, please."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "I want it quieter."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Decrease the sound."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Make Spotify quieter."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Lower music playback volume."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Diminish the volume."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Drop the sound level."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Volume too high, reduce it."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Please lower the audio level."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Let’s go quieter."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Turn it down now."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Quiet the music down."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Soft music mode."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Drop the audio."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Bring it down a bit."
+    },
+    {
+        "label": "SPOTIFY_SOFTER",
+        "text": "Calm the sound down."
     }
 ]

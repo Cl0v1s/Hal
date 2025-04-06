@@ -51,29 +51,26 @@ if __name__ == "__main__":
                 eyes.get_instance().setMood(3)
                 eyes.get_instance().setIdleMode(False, 2, 2)
                 eyes.get_instance().setCuriosity(True)
-                eyes.get_instance().write((">" + request).encode("utf-8"))
+                eyes.get_instance().write(("> " + request).encode("utf-8"))
                 request = brain.translate(request)
                 # emotion = brain.get_emotion(request)[0]
                 intent = brain.get_intent(request)[0]
                 eyes.get_instance().setCuriosity(False)
 
-                # if(emotion["label"] == 'LABEL_3'):
-                #     eyes.get_instance().setMood(2)
-
-                print(request)
                 print(intent)
-                
                 if(intent["score"] < 0.80):
                     eyes.get_instance().anim_confused()
                     eyes.get_instance().setMood(1)
                     bips.playSad()
                 else:
                     int, fn = intent_index[intent["label"]]
+                    eyes.get_instance().write(("> " + int).encode("utf-8"))
                     eyes.get_instance().setMood(0)
                     eyes.get_instance().anim_laugh()
                     bips.playGonk()
-                    fn(int, request)
-
+                    confidence = fn(int, request)
+                    if confidence == 0:
+                        eyes.get_instance().setMood(1)
 
                 time.sleep(0.5)
   

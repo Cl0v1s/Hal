@@ -12,8 +12,6 @@ def install(c):
             print("Installing requirements for " + dir[0] + " action:")
             c.run("pip install -r "+ os.path.join(dir[0], "requirements.txt"))
 
-
-
 @task
 def build(c):
     c.run('g++ -shared -lSDL2 -lSDL2_ttf  -o lib.so -fPIC c/lib.cpp')
