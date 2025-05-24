@@ -1,0 +1,57 @@
+name: Generate Full JSON Changelog
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  generate-changelog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Generate changelog.json for all tags excluding 'chore:'
+        run: |
+          echo "{" > changelog.json
+          TAGS=($(git tag --sort=creatordate | grep '^v'))
+
+          for i in "${!TAGS[@]}"; do
+            tag="${TAGS[$i]}"
+            prev="${TAGS[$((i-1))]}"
+
+            if [ "$i" -eq 0 ]; then
+              range="$tag"
+            else
+              range="$prev..$tag"
+            fi
+
+            echo "  \"$tag\": [" >> changelog.json
+            git log $range --pretty=format:'%H|||%s' | grep -v '^.*|||chore:' | while IFS='|||' read -r hash msg; do
+              echo "    { \"hash\": \"$hash\", \"message\": \"$msg\" }," >> changelog.json
+            done
+            sed -i '$ s/,$//' changelog.json  # remove trailing comma
+            echo "  ]," >> changelog.json
+          done
+
+          sed -i '$ s/],$/]/' changelog.json  # final cleanup
+          echo "}" >> changelog.json
+          cat changelog.json
+
+      - name: Commit changelog.json
+        run: |
+          git switch main
+          git pull
+          mv changelog.json changelog.json
+          git add changelog.json
+          git commit -m "chore: update changelog"
+          git push
