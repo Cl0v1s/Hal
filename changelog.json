@@ -1,9 +1,61 @@
 {
-    "v1.0.0": [
-      { "hash": "abc123", "message": "Initial commit" }
-    ],
-    "v1.1.0": [
-      { "hash": "def456", "message": "Add login" }
-    ]
-  }
-  
+  "v0.0.0": [
+    { "hash": "8aa1a125cd0984e7b4c1117e0a81356679a33047", "message": "||feat: new name" },
+    { "hash": "3bd9fc87ff81eea50641e6805dff2b1ba38bbb31", "message": "||feat: ensure spotify login" },
+    { "hash": "0a767cdff5bd67282dc39578434c3355cfcc5e4d", "message": "||feat: add spotify commands" },
+    { "hash": "ae124c1be2ccef846b1b20c2c354f13541ad220a", "message": "||feat: add install deps for actions" },
+    { "hash": "3d520ba36a29b75d85ead306ead22e80bb8e676d", "message": "||feat: can now write text" },
+    { "hash": "7c9218ae18c8546e880034297f3aed35f528926f", "message": "||feat: add hotword detection" },
+    { "hash": "5867e85070cc30d928c045d51eb72e9bbbf68c21", "message": "||feat: add gonk" },
+    { "hash": "8aa9f57d10648336d7690e3f670483385af0fe9d", "message": "||feat: weather ok" },
+    { "hash": "4c84fb1a61c6ae3ef35e0b5952691a8f65e0c360", "message": "||feat: add ability to think" },
+    { "hash": "702e738fbf08d991a748ebbf4b1ec2296bf3ac65", "message": "||feat: current meteo ok" },
+    { "hash": "307cd99111bb265273c2235ed2927a3d95e32ad3", "message": "||feat: add action plugin system" },
+    { "hash": "1f668e05abf419777a2b52a9b0871f5a17ef76b5", "message": "||feat: add sound and calling" },
+    { "hash": "6d35c04830c8ab54c81f313c10cbd6b3feaea882", "message": "||feat: add sound and calling" },
+    { "hash": "746fd1d69be03d9d55a756284002b7369a4845ee", "message": "||feat: connect brain and eyes" },
+    { "hash": "759408f3f2ac4c8c0ef13e4fe73be4a82f709f9a", "message": "||feat: add eyes" },
+    { "hash": "67d89fc294e98a3423e070f63e07227f1742c354", "message": "||feat: text operations" },
+    { "hash": "497d6fc40594be1717e8854cec8a5e96603def04", "message": "||Update documentation." },
+    { "hash": "72bebbaef60cdc99e070de795cad72cb6c852ce8", "message": "||Update documentation." },
+    { "hash": "6ea02a1bd478be28c3f375086081718be6919bd9", "message": "||Update documentation." },
+    { "hash": "d92106bf78092a0f785a0bbd2cfb87b6abffc5b4", "message": "||Update documentation." },
+    { "hash": "1262af29e5ee0c08c1d191e37db90f49de5510c3", "message": "||Update documentation." },
+    { "hash": "752cd52a8d332d1540d85392414f9b2d36a0536e", "message": "||Update documentation." },
+    { "hash": "434e67636210d144a71cc2baf1a31a4e1fbe1b2c", "message": "||Update documentation." },
+    { "hash": "35954c96bfa4b7087fed9658bdc8b91196663d68", "message": "||Update documentation." },
+    { "hash": "e55b2b5113c2074ed7abcca8a67758af17d4b37a", "message": "||Update documentation." },
+    { "hash": "d74c94af8eb000ebf9d54221ed6f962b101f4cbc", "message": "||Update documentation." },
+    { "hash": "68ec20922a86f69a047b58428df30eff11caa0d9", "message": "||Update documentation." },
+    { "hash": "ca4d0e67a4baeb01b000ea7c040898a932966ac1", "message": "||Update documentation." },
+    { "hash": "563f0b9705cbce5331fac2a653133230a13e6a64", "message": "||Update documentation." },
+    { "hash": "c009d06c1ce2af34ea556e1aad9ded0818214974", "message": "||Update documentation." },
+    { "hash": "40612199fc3e5e09bb632aed4c253b13079320cc", "message": "||Update documentation." },
+    { "hash": "1728569900c975e7aa461260ce22116db067a1eb", "message": "||Update documentation." },
+    { "hash": "7ae11f57fc3058dd589ec7b2b41501f56d95a0f3", "message": "||Update documentation." },
+    { "hash": "5bd792530f9a583d4b69d3099a154d0aad47ea16", "message": "||Update documentation." },
+    { "hash": "2b8cc97bf50f4e441a9af355bd2d5d59ef1d15e5", "message": "||Update documentation." },
+    { "hash": "50807561f150adb901334d4fa8a8697ffaff7e95", "message": "||Update documentation." },
+    { "hash": "80e6a411322cc10b37566039bfbaa0c28fd26332", "message": "||Update documentation." },
+    { "hash": "f3111c8cf8ebf33688986026d3cf897da95d8e63", "message": "||Update documentation." },
+    { "hash": "90dbdb0ed6ee0aff1c880991bdb0a96cfe7660b7", "message": "||Update documentation." },
+    { "hash": "110cd3c024ccd703783f7bc0496be90c613e19e7", "message": "||Update documentation." },
+    { "hash": "6401a9f102542957fc04bed53ba7e2936f610020", "message": "||Update documentation." },
+    { "hash": "79af89bf405e6d14d42d58aacb546e042c609f50", "message": "||Update documentation." },
+    { "hash": "e7c3586e1c109a7d41e6988fc46a577a291d9a26", "message": "||Update documentation." },
+    { "hash": "f110b9964490fc69cbfb4a64ea1abcdb76814ff2", "message": "||Remove unused files." },
+    { "hash": "2e78d3109f77e61747af734a345c678443980190", "message": "||Increase recording time." },
+    { "hash": "fb81fbfd19328496ec5eaa0e5e1fee1b68042a68", "message": "||Add button press for operation." },
+    { "hash": "2cb210d6c47149ee50c35471a9afb303881f3cef", "message": "||Exclude audio files." },
+    { "hash": "0df260b237ce6c17fbad9b537bf72b8bd514c021", "message": "||Working end-to-end." },
+    { "hash": "cd780b20d284a9f02eb883154339aba4da149e43", "message": "||Initial commit." },
+    { "hash": "792538c952dacaf598ce4199d7bf86b6781d890e", "message": "||Initial commit" }
+  ],
+  "v0.1.0": [
+    { "hash": "96368f4b0425e68f3835d80f72a1aa358dbba4cd", "message": "||feat: add meta information commands HI, CHANGELOG, DIAGNOSTIC" },
+    { "hash": "2383f4054228ee73ff55043a9f8772d6ad18fdd4", "message": "||feat: add auto changelog generation" },
+    { "hash": "c29e187c94881a69d3fefca9dbbd833358485a8e", "message": "||feat: change name from gonk to hal" }
+  ],
+  "v0.1.1": [
+  ]
+}
